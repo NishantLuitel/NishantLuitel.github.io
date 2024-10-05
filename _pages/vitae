@@ -1,0 +1,10 @@
+---
+layout: vitae
+permalink: /vitae/
+title: CV
+nav: true
+nav_order: 5
+cv_pdf: CV-grad.pdf
+toc:
+  sidebar: left
+---
