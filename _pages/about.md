@@ -20,6 +20,6 @@ social: true # includes social icons at the bottom of the page
 
 I completed my undergraduate studies in Computer Engineering at Pulchowk Campus, Tribhuvan University.
 
-I'm passionate about Machine Learning research, with interests spanning across diverse areas such as [Computer Vision], [Graph Neural Networks] (GNNs), [Natural Language Processing] (NLP), [Trustworthiness] in AI, [Generative Models], [Theoretical Foundations of ML], and [Medical Imaging]. I am always eager to explore how these fields can be applied to solve real-world problems.
+I'm passionate about Machine Learning research, with interests spanning across diverse areas such as `Computer Vision`, `Graph Neural Networks` (GNNs), `Natural Language Processing` (NLP), `Trustworthiness` in AI, `Generative Models`, `Theoretical Foundations of ML`, and `Medical Imaging`. I am always eager to explore how these fields can be applied to solve real-world problems.
 
 In my free time, I enjoy reading about psychology and am a big fan of western classical music, especially compositions by Beethoven and Schubert.
