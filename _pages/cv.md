@@ -1,7 +1,7 @@
 ---
 layout: cv
 permalink: /cv/
-title: CV
+title: Vitae
 nav: true
 nav_order: 5
 cv_pdf: CV-grad.pdf
