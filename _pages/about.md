@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Research Assitant at <a href='https://www.naamii.org.np/'>NAAMII</a>. Currently located at Lalitput, Nepal.
+subtitle: Research Assitant at <a href='https://www.naamii.org.np/'>NAAMII</a>. Currently located at Lalitpur, Nepal.
 
 profile:
   align: right
