@@ -98,21 +98,17 @@
                 {% assign parent_link = p.permalink | remove: 'index.html' %}
                 <li class="nav-item {% if page.url contains parent_link %}active{% endif %}">
                   {% if p.permalink contains '/blog/' %}{% assign url = '/blog/' %} {% else %}{% assign url = p.url %}{% endif %}
-                  
-                  {% if p.permalink contanis '/cv/' and site.pdfonlycv %}
-
+                  {% if p.permalink contains '/cv/' and site.pdfonlycv %}
                   {% if p.cv_pdf %}
-                    <a class="nav-link"
-                      href="https://nishantluitel.github.io/assets/pdf/"{p.cv_pdf}
-                      target="_blank"
+                      <a class="nav-link"
+                        href="https://nishantluitel.github.io/assets/pdf/{{ p.cv_pdf }}"
+                        target="_blank"
                       >
-                    {{- p.title }}
-                    </a>
-
-                  {% endif %}
-
-                  
+                        {{- p.title }}
+                      </a>
+                    {% endif %}
                   {% else %}
+
                   <a class="nav-link" href="{{ url | relative_url }}">
                     {{- p.title }}
                     {% if page.url contains p.url %}
