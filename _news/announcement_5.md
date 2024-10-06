@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Joined TOGAI research group at NAAMII as a Research Assistant. 
+Joined [TOGAI](https://www.naamii.org.np/research-group/togai/) research group at NAAMII as a Research Assistant. 
