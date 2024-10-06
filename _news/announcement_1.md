@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Enrolled at [Pulchowk Campus](https://pcampus.edu.np/), Tribhuvan University for Bachelors in Computer Engineering 
+Enrolled at [Pulchowk Campus](https://pcampus.edu.np/), Tribhuvan University for Bachelors in Computer Engineering.
