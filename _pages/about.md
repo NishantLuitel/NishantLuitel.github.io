@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p style="font-size: small; background-color: #f0f0f0; padding: 5px; display: inline-block;">
-      <span style="color: #009f06;">nishant.luitel@naamii.org.np</span>
+      Contact: <span style="color: #009f06;">nishant.luitel@naamii.org.np</span>
     </p>
 
 news: true # includes a list of news items
