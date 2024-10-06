@@ -9,7 +9,9 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Mail:<a mailto="nishant.luitel@naamii.org.np">nishant.luitel@naamii.org.np</a></p>
+    <p style="font-size: small; background-color: #f0f0f0; padding: 5px; display: inline-block;">
+      <span style="color: darkgreen;">nishant.luitel@naamii.org.np</span>
+    </p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
