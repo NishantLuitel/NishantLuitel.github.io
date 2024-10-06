@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started an internship at GritFeat Solutions for the Machine Learning Engineer Fellow position
+Started an internship at [GritFeat Solutions](https://www.gritfeat.com/) for the Machine Learning Engineer Fellow position
