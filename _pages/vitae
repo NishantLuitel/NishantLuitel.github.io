@@ -4,7 +4,7 @@ permalink: /vitae/
 title: Test
 nav: true
 nav_order: 5
-cv_pdf: CV-grad.pdf
+cv_pdf: CV_graduate.pdf
 toc:
   sidebar: left
 ---
