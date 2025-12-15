@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Organized a challenge for Gestational Age estimation with Blind Sweeps Videos in [AIHAC][https://conference.makerereaihealthlab.com/#programme] 2025, Uganda  
+Organized a challenge for Gestational Age estimation with Blind Sweeps Videos in [AIHAC](https://conference.makerereaihealthlab.com/#programme) 2025, Uganda  
