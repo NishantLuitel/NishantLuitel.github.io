@@ -22,4 +22,4 @@ I completed my undergraduate studies in Computer Engineering at Pulchowk Campus,
 
 I'm passionate about Machine Learning research, with interests spanning across diverse areas such as `Computer Vision`, `GNNs`, `NLP`, `Trustworthiness` in AI, `Generative Models`, `ML Theory`, and `Medical Imaging`. I am always eager to explore how these fields can be applied to solve real-world problems.
 
-In my free time, I enjoy reading about psychology and am a big fan of western classical music, especially compositions by Beethoven and Schubert.
+In my free time, I enjoy reading about psychology and am a big fan of western classical music.
