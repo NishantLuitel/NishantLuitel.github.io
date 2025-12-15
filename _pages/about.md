@@ -20,6 +20,6 @@ social: true # includes social icons at the bottom of the page
 
 I completed my undergraduate studies in Computer Engineering at Pulchowk Campus, Tribhuvan University.
 
-I'm passionate about Machine Learning research, with strong interest in areas such as `Deep Generative Models`, `Representation Learning` and `Multimodal-Multiview Learning`, `Trustworthiness`. I am currently working on blind-sweep obstetric ultrasound applications, using deep learning to enable robust fetal assessment and improve access to prenatal care in low-resource settings. 
+I'm passionate about Machine Learning research, with strong interest in areas such as `Deep Generative Models`, `Representation Learning` and `Multimodal-Multiview Learning`. I am currently working on blind-sweep obstetric ultrasound applications, using deep learning to enable robust fetal assessment and improve access to prenatal care in low-resource settings. 
 
 In my free time, I enjoy reading about psychology and I often listen to western classical music.
