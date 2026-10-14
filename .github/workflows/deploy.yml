@@ -3,6 +3,8 @@ name: Deploy site
 on:
   push:
     branches: [master]
+  pull_request:
+    branches: [master]
   workflow_dispatch:
 
 permissions:
@@ -21,5 +23,6 @@ jobs:
         env:
           JEKYLL_ENV: production
       - uses: JamesIves/github-pages-deploy-action@v4
+        if: github.event_name != 'pull_request'
         with:
           folder: _site
