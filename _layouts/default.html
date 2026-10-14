@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="dark">
+    <meta name="theme-color" content="#111318">
+    <meta name="description" content="{{ site.description | escape }}">
+    <title>{{ page.title | default: site.title | escape }}</title>
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="wordmark" href="{{ '/' | relative_url }}" aria-label="Nishant Luitel, home">NL<span class="wordmark-dot">.</span></a>
+        <nav aria-label="Main navigation">
+          <a href="#research">Research</a>
+          <a href="#publications">Publications</a>
+          <a href="#selected-updates">Updates</a>
+        </nav>
+      </header>
+
+      <main id="main-content">
+        <section class="hero" aria-labelledby="page-title">
+          <div class="hero-copy">
+            <p class="eyebrow">Hello, I'm</p>
+            <h1 id="page-title">{{ page.title | escape }}</h1>
+            <p class="role">{{ page.role | escape }}</p>
+          </div>
+          <img class="portrait" src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" alt="Portrait of Nishant Luitel" width="192" height="192">
+        </section>
+
+        <article class="content">
+          {{ content }}
+        </article>
+      </main>
+
+      <footer class="site-footer">
+        <span>© {{ 'now' | date: '%Y' }} Nishant Luitel</span>
+        <a href="#main-content">Back to top ↑</a>
+      </footer>
+    </div>
+  </body>
+</html>
