@@ -2,6 +2,7 @@
 layout: default
 title: Nishant Luitel
 role: PhD student · Rochester Institute of Technology
+home: true
 ---
 
 I am a PhD student at [Rochester Institute of Technology](https://www.rit.edu/), advised by [Dr. Rui Li](https://www.rit.edu/ai/directory/rxlics-rui-li). I study how learning systems can model uncertainty, organize specialized expertise, and generate useful outputs.
@@ -23,6 +24,12 @@ My current interests are **probabilistic models**, **mixture of experts**, and *
 3. **Contextual Spelling Correction with Language Model for Low-Resource Setting.** Nishant Luitel, Nirajan Bekoju, Anand Kumar Sah, and Subarna Shakya. *ICICT, 2024.* [Paper](https://arxiv.org/abs/2404.18072) · [Code](https://github.com/NishantLuitel/Nepali-Spell-Checker)
 
 For a current list, see [Google Scholar](https://scholar.google.com/citations?user=N7voXrAAAAAJ&hl=en&oi=ao).
+
+## Writing
+
+{% include blog-list.html limit=3 %}
+
+[Browse all writing]({{ '/blog/' | relative_url }})
 
 ## Selected updates
 

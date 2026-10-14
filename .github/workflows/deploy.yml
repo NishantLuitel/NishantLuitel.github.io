@@ -19,9 +19,34 @@ jobs:
         with:
           ruby-version: '3.3'
       - run: bundle install
+      - name: Add a sample README post for pull request checks
+        if: github.event_name == 'pull_request'
+        run: |
+          mkdir -p blog/render-check
+          sed 's/your-post-slug/render-check/g' BLOG_TEMPLATE.md > blog/render-check/README.md
+          printf '<svg xmlns="http://www.w3.org/2000/svg" width="320" height="120"><title>Sample plot</title><path d="M10 100 L100 65 L200 70 L310 20" fill="none" stroke="#317b68"/></svg>' > blog/render-check/plot.svg
       - run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
+      - name: Verify README rendering and adjacent plot
+        if: github.event_name == 'pull_request'
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          home = Path('_site/index.html').read_text()
+          listing = Path('_site/blog/index.html').read_text()
+          post = Path('_site/blog/render-check/index.html').read_text()
+          assert 'A descriptive title' in home and 'A descriptive title' in listing
+          assert 'A descriptive title' in post and 'mathjax' in post.lower()
+          assert 'plot.svg' in post and Path('_site/blog/render-check/plot.svg').exists()
+          assert '<table>' in post and 'language-python' in post
+          print('README post, listing, table, code, math, and plot verified')
+          PY
+      - uses: actions/upload-artifact@v4
+        if: github.event_name == 'pull_request'
+        with:
+          name: site-preview
+          path: _site
       - uses: JamesIves/github-pages-deploy-action@v4
         if: github.event_name != 'pull_request'
         with:
