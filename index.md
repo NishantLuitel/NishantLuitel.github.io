@@ -6,7 +6,7 @@ role: PhD student · Rochester Institute of Technology
 
 I am a PhD student at [Rochester Institute of Technology](https://www.rit.edu/), advised by [Dr. Rui Li](https://www.rit.edu/ai/directory/rxlics-rui-li). I study how learning systems can model uncertainty, organize specialized expertise, and generate useful outputs.
 
-I received my bachelor's degree in Computer Engineering with Distinction from [Pulchowk Campus, Tribhuvan University](https://pcampus.edu.np/). Before joining RIT, I worked as a Research Assistant with the [TOGAI group at NAAMII](https://www.naamii.org.np/research-group/togai/), studying deep learning for blind-sweep obstetric ultrasound and fetal assessment.
+I received my bachelor's degree in Computer Engineering with Distinction from [Pulchowk Campus, Tribhuvan University](https://pcampus.edu.np/). Before joining RIT, I worked as a Research Assistant with the [TOGAI group at NAAMII](https://naamii.org/research/research-groups/togai_transforming_global_health_with_ai), studying deep learning for blind-sweep obstetric ultrasound and fetal assessment.
 
 [Google Scholar](https://scholar.google.com/citations?user=N7voXrAAAAAJ&hl=en&oi=ao) · [GitHub](https://github.com/NishantLuitel) · [LinkedIn](https://www.linkedin.com/in/nishant-luitel)
 
