@@ -53,9 +53,9 @@ h1 { margin: 0; font: 600 clamp(31px, 4vw, 38px)/1.17 var(--ui); letter-spacing:
 .post-list p { grid-column: 1 / -1; margin: 5px 0 0; color: var(--muted); font-size: 13px; }
 .empty-note { color: var(--muted); font-style: italic; }
 
-.writing-index, .reading-page { max-width: 720px; margin: 0 auto; padding: 56px 0 90px; }
-.writing-index h1 { font-size: 34px; }
-.writing-intro { margin: 12px 0 30px; color: var(--muted); }
+.blog-index, .reading-page { max-width: 720px; margin: 0 auto; padding: 56px 0 90px; }
+.blog-index h1 { font-size: 34px; }
+.blog-intro { margin: 12px 0 30px; color: var(--muted); }
 .back-link, .article-end a { color: var(--muted); font-size: 13px; text-decoration: none; }
 .back-link:hover, .article-end a:hover { color: var(--accent); }
 .article-header { margin: 39px 0 36px; padding-bottom: 30px; border-bottom: 1px solid var(--line); }
@@ -108,7 +108,7 @@ h1 { margin: 0; font: 600 clamp(31px, 4vw, 38px)/1.17 var(--ui); letter-spacing:
   .content h2 { margin-top: 44px; }
   .post-list li { display: block; }
   .post-date { display: block; margin-top: 3px; }
-  .writing-index, .reading-page { padding: 42px 0 70px; }
+  .blog-index, .reading-page { padding: 42px 0 70px; }
   .article-header { margin-top: 28px; }
 }
 
