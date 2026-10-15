@@ -13,7 +13,7 @@ I received my bachelor's degree in Computer Engineering with Distinction from [P
 
 ## Research
 
-My current interests are **probabilistic models**, **mixture of experts**, and **generation**. I am interested in models that make good use of structure and uncertainty while remaining practical to train and evaluate.
+My current interests are **Deep Probabilistic Models**, **Mixture of Experts**, and **Generation**. 
 
 ## Publications
 
@@ -31,4 +31,4 @@ For a current list, see [Google Scholar](https://scholar.google.com/citations?us
 - **August 2024** — Joined the [TOGAI research group at NAAMII](https://www.naamii.org.np/research-group/togai/) as a Research Assistant.
 - **April 2024** — Graduated with Distinction in Computer Engineering from Pulchowk Campus.
 
-Outside research, I enjoy reading about psychology and listening to Western classical music.
+Outside research, I enjoy reading about psychology and listening to music.
