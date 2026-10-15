@@ -25,12 +25,6 @@ My current interests are **probabilistic models**, **mixture of experts**, and *
 
 For a current list, see [Google Scholar](https://scholar.google.com/citations?user=N7voXrAAAAAJ&hl=en&oi=ao).
 
-## Writing
-
-{% include blog-list.html limit=3 %}
-
-[Browse all writing]({{ '/blog/' | relative_url }})
-
 ## Selected updates
 
 - **November 2025** — Organized a gestational-age estimation challenge using blind-sweep videos at [AIHAC 2025](https://conference.makerereaihealthlab.com/#programme) in Uganda.
