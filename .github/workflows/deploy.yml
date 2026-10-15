@@ -36,7 +36,9 @@ jobs:
           home = Path('_site/index.html').read_text()
           listing = Path('_site/blog/index.html').read_text()
           post = Path('_site/blog/render-check/index.html').read_text()
-          assert 'A descriptive title' in home and 'A descriptive title' in listing
+          assert 'A descriptive title' not in home and 'A descriptive title' in listing
+          assert '>Blog</a>' in home and '<h1>Blog</h1>' in listing
+          assert 'assets/img/favicon.svg' in home and Path('_site/assets/img/favicon.svg').exists()
           assert 'A descriptive title' in post and 'mathjax' in post.lower()
           assert 'plot.svg' in post and Path('_site/blog/render-check/plot.svg').exists()
           assert '<table>' in post and 'language-python' in post
