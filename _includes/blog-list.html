@@ -1,0 +1,15 @@
+{% assign posts = site.pages | where: 'blog', true | sort: 'date' | reverse %}
+{% assign post_limit = include.limit | default: 1000 %}
+{% if posts.size > 0 %}
+<ul class="post-list">
+  {% for post in posts limit: post_limit %}
+  <li>
+    <a class="post-title" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+    <span class="post-date">{{ post.date | date: '%B %-d, %Y' }}</span>
+    {% if post.summary %}<p>{{ post.summary | escape }}</p>{% endif %}
+  </li>
+  {% endfor %}
+</ul>
+{% else %}
+<p class="empty-note">No essays published yet.</p>
+{% endif %}

@@ -3,7 +3,11 @@ description: PhD student at Rochester Institute of Technology researching probab
 url: https://nishantluitel.github.io
 markdown: kramdown
 permalink: pretty
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
 exclude:
   - Gemfile
   - README.md
   - LICENSE
+  - BLOG_TEMPLATE.md
